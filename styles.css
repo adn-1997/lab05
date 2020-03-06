@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  color: #666;
+}
+
+.value {
+  width: 50%;
+  line-height: 3em;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+fieldset {
+  background: #eee;
+  border: none;
+  padding: .5em 12px;
+  margin-bottom: 0.5em;
+}
+
+/* overrides the ugly browser default date field style */
+input[type="date"] {
+  font-family: inherit;
+  font-size: 1em;
+  color: inherit;
+}
